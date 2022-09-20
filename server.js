@@ -1,5 +1,4 @@
 // import modules
-
 import express from 'express'
 
 // Create Express app
@@ -11,13 +10,13 @@ app.set('view engine', 'ejs')
 
 
 // Mount Middleware (app.use)
-app.get('/home', function(req, res) {
-  res.render('home')
-})
+
 
 
 // Mount routes
-
+app.get('/home', function(req, res) {
+  res.render('home')
+})
 
 
 // Tell the app to listen on port 3000
