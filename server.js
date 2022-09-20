@@ -11,7 +11,7 @@ app.set('view engine', 'ejs')
 
 
 // Mount Middleware (app.use)
-
+app.use(express.static('public'))
 
 
 // Mount routes
@@ -26,7 +26,7 @@ app.get('/students', function(req, res) {
 })
 
 app.get('/', function(req, res) {
-  res.redirect('/home')
+  res.redirect('/students')
 })
 
 
