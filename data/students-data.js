@@ -7,3 +7,7 @@ const students = [
   {name: 'Pearl', student: true, _id: 123461},
   {name: 'Sheldon', student: true, _id: 123462}
 ]
+
+export {
+  students
+}
